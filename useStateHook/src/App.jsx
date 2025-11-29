@@ -12,9 +12,12 @@ const App = () => {
   };
 
   const updateNum = () => {
-    const newArr = [...num];
-    newArr.push(44);
-    setNum(newArr);
+    let arr2 = [...num, 52, 66];
+    console.log(arr2);
+
+    // const newArr = [...num];
+    // newArr.push(44);
+    // setNum(newArr);
   };
 
   return (
